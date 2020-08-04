@@ -1,0 +1,88 @@
+/* Selectores para el ejercicio 1 */
+.flex {    
+    display: flex;
+    /* Eje principal: eje horizontal */
+    flex-direction: row;
+    /* Eje principal: eje vetical */
+    /* flex-direction: column; */
+}
+
+.div {
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    border: 2px solid gray;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* Selectores para el ejercicio 2 */
+
+.wrap {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.div-wrap {
+    width: 200px;
+    height: 100px;
+    border: 1px solid gray;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+/* ................................................................................................................ */
+
+/* Selectores para el ejercicio 3 */
+
+.menu {
+    width: auto;
+    height: 100px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* Selectores para el ejercicio 4 */
+
+.noticias {
+    width: auto;
+    height: 1000px;
+    display: flex;
+    border: 1px solid green;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: flex-end;
+}
+
+.noticia {
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    padding: 10px;
+
+}
+
+.imagen {
+    width: auto;
+    height: 100px;
+    background-color: gray;
+}
+
+h1 {
+    margin: 5px 0;
+}
+
+.noticia5 {
+    align-self: flex-start;
+    justify-self: left;
+}

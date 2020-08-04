@@ -1,0 +1,73 @@
+/* Hoja de estilos para los ejercicios del la unidad Mi Primera Página Web */
+
+/* Selector de estilos para el ejercicio 4 */
+.body-ejercicio-2 {
+    font-size: 18px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+/* Selector de estilo para el ejercicio 3 */
+.links {
+    color: red;
+}
+
+/* Selector de estilo para el ejercicio 5 */
+
+/* NO TOCAR ESTOS ESTILOS */
+ul.news {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+  }
+  a {
+    color: red;
+  }
+  ul.news li.news__item {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 10px;
+  }
+  ul.news li.news__item + li.news__item {
+    border-top: 1px solid #ccc;
+  }
+  ul.news li.news__item:nth-child(2n) {
+    background: #eee;
+  }
+  ul.news li.news__item:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  ul.news li.news__item h2.news__item-title {
+    margin: 0 0 .25em;
+    font-size: 20px;
+  }
+  ul.news li.news__item a.news__item-link {
+    color: green;
+  }
+  /* NO TOCAR ESTOS ESTILOS */
+  
+  /* Nuevos estilos a partir de esta línea */
+
+  /* a {
+    color: red !important;
+  } */
+
+  /* -------------------------------------------------------------------------------------- */
+
+  /* Solicitudes del ejercicio 5:
+  
+  1. Por qué los enlaces son verdes y no rojos
+     Porque el selector del color verde es más específico que el selector del color rojo.
+     
+  2. Hacer que los enlaces sean rojos  
+
+  3. Rehacer el HTML usando <div> en lugar de <ul> y <li>. ¿Qué pasa?
+     Los enlaces se vuelven rojos.
+  
+  4. Comentar el CSS que no se puede tocar y reescribirlo usando una clase por selector para que se vea igual.
+  5. BONUS: Cambiar ahora entre <div> y <ul>/<li>
+  
+  */

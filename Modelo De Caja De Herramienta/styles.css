@@ -1,0 +1,183 @@
+/* Selectores para el ejercicio 2 */
+.size {
+    width: 100px; 
+    height: 100px;
+}
+.div1 {
+    display: block;
+    background-color: orangered;
+}
+.div2 {
+    display: inline;
+    background-color: blue;
+}
+.div3 {
+    display: inline-block;
+    background-color: blueviolet;
+}
+
+/* Selector para el ejercicio 4 */
+.img-class {
+    width: 200px;
+    height: 200px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Selector para el ejercicio 5 */
+
+/* Añadir un padding de 10px
+   Añadir un borde de 5px
+
+   Cambiar el modelo de caja a border-box y explica qué ha pasado
+    Al cambiar a border-box, el tamaño disponible para el contenido se reduce, por lo tanto se 
+    desborda 
+
+   Centrar la caja utilizando el valor auto en los margenes horizontales. */
+
+.div {
+    width: 100px; 
+    height: 100px;
+    display: block;
+    background-color: orangered;
+    padding: 10px;
+    border: 5px solid blue;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* Selectores para el ejercicio 6 */
+
+.container {
+    border: 1px solid deeppink;
+  }
+  .col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+  .container--1 {
+    height: 100px;
+    width: 200px;
+    /* Añadir propiedad overflow */
+    overflow-y: hidden;
+  }
+  .container--2 {
+    height: 200px;
+    /* Añadir propiedad overflow */
+    overflow-y: scroll;
+  }
+/* -------------------------------------------------------------------------------------- */
+
+  /* Selectores para el ejercicio 7 */
+
+  body {
+    font-family: Arial, Helvetica, san-serif;
+    padding: 16px;
+  }
+  
+  .page-title {
+    margin: 0;
+  }
+  
+  .main {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .user-info {
+    width: 300px;
+    padding: 8px 16px;
+    margin: 16px;
+    border-left: 3px solid #f93af9;
+    background-color: #f3f3f3;
+  
+    /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR POR QUE PASA
+     **/
+    /* display: inline; */
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    /* display: inline-block; */
+    
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    /* text-align: center; */
+  }
+  
+  .user-info__name {
+    margin: 8px 0;
+  }
+  
+  .user-info__mail {
+    display: inline-block;
+    max-width: 284px;
+    padding: 4px;
+    margin-bottom: 8px;
+    background-color: #d4d4d4;
+    color: #f93af9;
+    text-decoration: none;
+    font-weight: bold;
+    
+     /* DESCOMENTAR LA SIGUIENTE LINEA
+     * Y OBSERVAR QUE PASA
+     **/
+    
+    /* overflow-x: scroll; */
+    
+     /* DESCOMENTAR LAS SIGUIENTES LINEAS
+     * Y OBSERVAR QUE PASA
+     **/
+    
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+  }
+
+  /* ---------------------------------------------------------------------------------------- */
+
+  /* Selectores para el ejercicio 11 */
+
+  body {
+    margin: 10px 30px;
+  }
+  .col {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .box {
+    border: 1px solid deeppink;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .box--1 {
+    /* 
+    color de fondo: cyan
+    */
+    background-color: cyan;
+  }
+  .box--2 {
+    /*
+    imagen de fondo: https://www.fillmurray.com/130/130
+    */
+    background-image: url("https://www.fillmurray.com/130/130");
+  }
+  .box--3 {
+    /*
+    color de fondo: cyan
+    imagen de fondo: https://www.fillmurray.com/110/110
+    La imagen tiene que aparecer centrada y sin que se repita
+    */
+    background-image: url("https://www.fillmurray.com/110/110");
+    background-repeat: round;
+  }
