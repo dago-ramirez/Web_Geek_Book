@@ -1,5 +1,11 @@
+/* Selector universal */
+
+* {
+    margin: 0;
+}
+
 /* Selectores para el ejercicio 1 */
-.flex {    
+.body-ejercicio-1 {    
     display: flex;
     /* Eje principal: eje horizontal */
     flex-direction: row;
@@ -18,7 +24,7 @@
 
 /* Selectores para el ejercicio 2 */
 
-.wrap {
+.body-ejercicio-2 {
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
@@ -54,13 +60,17 @@
 
 /* Selectores para el ejercicio 4 */
 
+.body-ejercicio-4 {
+    display: flex;
+    justify-content: center;
+}
+
 .noticias {
-    width: auto;
-    height: 1000px;
+    width: 644px;
+    height: 966px;
     display: flex;
     border: 1px solid green;
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
+    flex-wrap: wrap;
     align-items: flex-end;
 }
 
@@ -83,6 +93,186 @@ h1 {
 }
 
 .noticia5 {
-    align-self: flex-start;
-    justify-self: left;
+    order: -1;
+    width: auto;
+}
+/* --------------------------------------------------------------------------------------------------------------------*/
+
+/* Selectores ejercicio 5*/
+
+.body-ejercicio-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-ejercicio-5 {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(230, 216, 216);
+}
+
+.main-ejercicio-5 {
+    width: 100vw;
+    /* Cambiar el valor de height para ver que el min-height siempre es el calculado */
+    /* height: 1000px; */
+    min-height: calc(100vh - 100px);
+    background-color: rgb(182, 179, 179);
+
+}
+
+.footer-ejercicio-5 {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(145, 247, 141);
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* Selectores ejercicio 6 */
+
+.container-ejercicio-6 {
+    width: 100vw;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-ejercicio-6 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-ejercicio-6 {
+    width: 100%;
+    /* min-height: calc(100vh - 100px); */
+    background-color: rgb(182, 179, 179);
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-ejercicio-6 {
+    width: 20%;
+    background-color: orange;
+    padding: 10px;
+}
+
+.article-ejercicio-6 {
+    width: 60%;
+    background-color: blueviolet;
+    text-align: justify;
+    padding: 10px;
+}
+
+.footer-ejercicio-6 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(145, 247, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Selectores ejercicio 7 */
+
+.container-ejercicio-7 {
+    width: 100vw;
+    max-width: 600px;
+    text-align: center;
+    /* Se establecen el margin y el color de fondo para efectos de visualización mientas se finaliza el proyecto */
+    margin: 50px;
+    background-color: azure;
+}
+
+.main-ejercicio-7 {    
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.aside1-ejercicio-7 {
+    max-width: 10%;
+    background-color: gainsboro;
+}
+
+.article-ejercicio-7 {
+    width: 60%;
+    text-align: justify;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.aside2-ejercicio-7 {
+    max-width: 10%;
+    height: auto;
+    background-color: orange;
+}
+
+.div-ejercicio-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1-ejercicio-7 {
+    width: 200px;
+    background-color: gainsboro;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.div2-ejercicio-7 {
+    width: 200px;
+    border: 1px solid rgb(121, 119, 119);
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Selectores ejercicio 8 */
+
+.container-ejercicio-8 {
+    width: 100vw;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-ejercicio-8 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-ejercicio-8 {
+    width: 100%;
+    /* min-height: calc(100vh - 100px); */
+    background-color: rgb(182, 179, 179);
+    display: flex;
+    flex-direction: row;
+}
+
+.article-ejercicio-8 {
+    width: 100%;
+    background-color: rgb(247, 243, 250);
+    text-align: justify;
+    padding: 10px;
+}
+
+.footer-ejercicio-8 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(145, 247, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
