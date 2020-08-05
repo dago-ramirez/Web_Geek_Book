@@ -1,1 +1,3 @@
 - Pendiete por terminar los ejercicios 7 y 8 de la unidad Flexbox
+
+-Posicionamiento: ejercicio 3. literal c). Hacer que cuando la usuaria haga scroll, la cabecera se apile o superponga por encima del contenedor principal.
